@@ -1,0 +1,2060 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.18.23">
+  <title></title>
+  <autotransaction active="0"/>
+  <evaluateDefaultValues active="0"/>
+  <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
+    <customproperties/>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Checked" id="map_final620180824201911618" source="file:///C:/Users/301-8/data/data/map_final6.csv?encoding=EUC-KR&amp;type=csv&amp;xyDms=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no" name="map_final6">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="TL_SCCO_EMD20180824135438255" source="C:/Users/301-8/Downloads/2/EMD_201804/TL_SCCO_EMD.shp" name="TL_SCCO_EMD">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="TBGIS_ALLEY_TRDAR_RELM20180822164111841" source="C:/Users/301-8/Downloads/24.골목상권영역(2017년이후)/TBGIS_ALLEY_TRDAR_RELM.shp" name="TBGIS_ALLEY_TRDAR_RELM">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="delimitedtext" checked="Qt::Unchecked" id="6DD20180822162139295" source="file:///C:/Users/301-8/Desktop/%EC%9E%91%EC%97%85%ED%8C%8C%EC%9D%BC%EB%93%A4/data/data/6DD.csv?encoding=EUC-KR&amp;type=csv&amp;xField=X&amp;yField=Y&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no" name="6DD">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="ogr" checked="Qt::Checked" id="TL_SCCO_CTPRVN20180822175228974" source="C:/Users/301-8/Downloads/CTPRVN_201804/TL_SCCO_CTPRVN.shp" name="TL_SCCO_CTPRVN">
+      <customproperties/>
+    </layer-tree-layer>
+    <layer-tree-layer expanded="1" providerKey="gdal" checked="Qt::Checked" id="Daum_Street20180824201842773" source="&lt;GDAL_WMS>&#xa;  &lt;Service name=&quot;TMS&quot;>&#xa;    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>&#xa;  &lt;/Service>&#xa;  &lt;DataWindow>&#xa;    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>&#xa;    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>&#xa;    &lt;LowerRightX>20037508.34&lt;/LowerRightX>&#xa;    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>&#xa;    &lt;TileLevel>19&lt;/TileLevel>&#xa;    &lt;TileCountX>1&lt;/TileCountX>&#xa;    &lt;TileCountY>1&lt;/TileCountY>&#xa;    &lt;YOrigin>top&lt;/YOrigin>&#xa;  &lt;/DataWindow>&#xa;  &lt;Projection>EPSG:3857&lt;/Projection>&#xa;  &lt;BlockSizeX>256&lt;/BlockSizeX>&#xa;  &lt;BlockSizeY>256&lt;/BlockSizeY>&#xa;  &lt;BandsCount>3&lt;/BandsCount>&#xa;  &lt;Cache />&#xa;&lt;/GDAL_WMS>&#xa;" name="Daum Street">
+      <customproperties/>
+    </layer-tree-layer>
+  </layer-tree-group>
+  <relations/>
+  <mapcanvas>
+    <units>meters</units>
+    <extent>
+      <xmin>202266.84005598581279628</xmin>
+      <ymin>451117.85997949499869719</ymin>
+      <xmax>203692.08101867305231281</xmax>
+      <ymax>452287.31831402116222307</ymax>
+    </extent>
+    <rotation>0</rotation>
+    <projections>1</projections>
+    <destinationsrs>
+      <spatialrefsys>
+        <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+        <srsid>28045</srsid>
+        <srid>5181</srid>
+        <authid>EPSG:5181</authid>
+        <description>Korea 2000 / Central Belt</description>
+        <projectionacronym>tmerc</projectionacronym>
+        <ellipsoidacronym>GRS80</ellipsoidacronym>
+        <geographicflag>false</geographicflag>
+      </spatialrefsys>
+    </destinationsrs>
+    <rendermaptile>0</rendermaptile>
+    <layer_coordinate_transform_info>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="TL_SCCO_CTPRVN20180822175228974"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5181" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180824134353686"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5181" srcDatumTransform="-1" destDatumTransform="-1" layerid="OpenLayers_plugin_layer20180824180735325"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5181" srcDatumTransform="-1" destDatumTransform="-1" layerid="TBGIS_ALLEY_TRDAR_RELM20180822164111841"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="TL_SCCO_EMD20180824135423934"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:5181" srcDatumTransform="-1" destDatumTransform="-1" layerid="6DD20180822162139295"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="TL_SCCO_EMD20180824135438255"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="EPSG:3857" srcDatumTransform="-1" destDatumTransform="-1" layerid="Daum_Street20180824201842773"/>
+      <layer_coordinate_transform destAuthId="EPSG:5181" srcAuthId="USER:100000" srcDatumTransform="-1" destDatumTransform="-1" layerid="TL_SCCO_EMD20180823154402225"/>
+    </layer_coordinate_transform_info>
+  </mapcanvas>
+  <layer-tree-canvas>
+    <custom-order enabled="0">
+      <item>6DD20180822162139295</item>
+      <item>TBGIS_ALLEY_TRDAR_RELM20180822164111841</item>
+      <item>TL_SCCO_CTPRVN20180822175228974</item>
+      <item>TL_SCCO_EMD20180824135438255</item>
+      <item>Daum_Street20180824201842773</item>
+      <item>map_final620180824201911618</item>
+    </custom-order>
+  </layer-tree-canvas>
+  <legend updateDrawingOrder="true">
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="map_final6" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="map_final620180824201911618" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="TL_SCCO_EMD" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="TL_SCCO_EMD20180824135438255" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="TBGIS_ALLEY_TRDAR_RELM" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="TBGIS_ALLEY_TRDAR_RELM20180822164111841" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="6DD" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="6DD20180822162139295" visible="0"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="TL_SCCO_CTPRVN" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="TL_SCCO_CTPRVN20180822175228974" visible="1"/>
+      </filegroup>
+    </legendlayer>
+    <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Daum Street" showFeatureCount="0">
+      <filegroup open="true" hidden="false">
+        <legendlayerfile isInOverview="0" layerid="Daum_Street20180824201842773" visible="1"/>
+      </filegroup>
+    </legendlayer>
+  </legend>
+  <projectlayers>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>183154</xmin>
+        <ymin>438003</ymin>
+        <xmax>215185</xmax>
+        <ymax>465064</ymax>
+      </extent>
+      <id>6DD20180822162139295</id>
+      <datasource>file:../%EC%9E%91%EC%97%85%ED%8C%8C%EC%9D%BC%EB%93%A4/data/data/6DD.csv?encoding=EUC-KR&amp;type=csv&amp;xField=X&amp;yField=Y&amp;spatialIndex=no&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>6DD</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28045</srsid>
+          <srid>5181</srid>
+          <authid>EPSG:5181</authid>
+          <description>Korea 2000 / Central Belt</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="인덱스">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="X">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Y">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="분식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="양식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="일식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="제과점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="중국집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="치킨집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="커피음료매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="패스트푸드점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="한식음식점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="호프간이주점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{e4301b73-b3d8-42a0-a3a4-cc7f81d5cead}">
+          <rule filter=" &quot;치킨집매출건수&quot; =2&#xd;&#xa; " key="{98168b5a-97b9-4c4f-bd2a-e0c62e911904}" symbol="0"/>
+          <rule filter=" &quot;치킨집매출건수&quot; =1" key="{4c54936d-d5fa-443d-9050-70abc3e61a73}" symbol="1"/>
+          <rule filter=" &quot;치킨집매출건수&quot; =-1" key="{cae3fe7f-fbbc-44a4-8be6-a4c0925bf10d}" symbol="2"/>
+          <rule filter=" &quot;치킨집매출건수&quot; =-2" key="{cae3fe7f-fbbc-44a4-8be6-a4c0925bf10d}" symbol="3"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="227,0,3,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="1">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="255,119,121,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="2">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="166,206,227,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="marker" name="3">
+            <layer pass="0" class="SimpleMarker" locked="0">
+              <prop k="angle" v="0"/>
+              <prop k="color" v="3,33,227,255"/>
+              <prop k="horizontal_anchor_point" v="1"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="name" v="circle"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0"/>
+              <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="scale_method" v="area"/>
+              <prop k="size" v="2"/>
+              <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="size_unit" v="MM"/>
+              <prop k="vertical_anchor_point" v="1"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="인덱스"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Gulim"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="3"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="6"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>1</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>인덱스</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name="Gulim"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../작업파일들</annotationform>
+      <aliases>
+        <alias field="인덱스" index="0" name=""/>
+        <alias field="X" index="1" name=""/>
+        <alias field="Y" index="2" name=""/>
+        <alias field="분식집매출건수" index="3" name=""/>
+        <alias field="양식집매출건수" index="4" name=""/>
+        <alias field="일식집매출건수" index="5" name=""/>
+        <alias field="제과점매출건수" index="6" name=""/>
+        <alias field="중국집매출건수" index="7" name=""/>
+        <alias field="치킨집매출건수" index="8" name=""/>
+        <alias field="커피음료매출건수" index="9" name=""/>
+        <alias field="패스트푸드점매출건수" index="10" name=""/>
+        <alias field="한식음식점매출건수" index="11" name=""/>
+        <alias field="호프간이주점매출건수" index="12" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;분식집매출건수&quot;" sortOrder="1">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="인덱스"/>
+          <column width="-1" hidden="0" type="field" name="X"/>
+          <column width="-1" hidden="0" type="field" name="Y"/>
+          <column width="-1" hidden="0" type="field" name="분식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="양식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="일식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="제과점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="중국집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="치킨집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="커피음료매출건수"/>
+          <column width="-1" hidden="0" type="field" name="패스트푸드점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="한식음식점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="호프간이주점매출건수"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../작업파일들</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../작업파일들</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="인덱스" expression=""/>
+        <default field="X" expression=""/>
+        <default field="Y" expression=""/>
+        <default field="분식집매출건수" expression=""/>
+        <default field="양식집매출건수" expression=""/>
+        <default field="일식집매출건수" expression=""/>
+        <default field="제과점매출건수" expression=""/>
+        <default field="중국집매출건수" expression=""/>
+        <default field="치킨집매출건수" expression=""/>
+        <default field="커피음료매출건수" expression=""/>
+        <default field="패스트푸드점매출건수" expression=""/>
+        <default field="한식음식점매출건수" expression=""/>
+        <default field="호프간이주점매출건수" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "인덱스", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <extent>
+        <xmin>-20037508.33999999985098839</xmin>
+        <ymin>-20037508.33999999985098839</ymin>
+        <xmax>20037508.33999999985098839</xmax>
+        <ymax>20037508.33999999985098839</ymax>
+      </extent>
+      <id>Daum_Street20180824201842773</id>
+      <datasource>&lt;GDAL_WMS>
+  &lt;Service name="TMS">
+    &lt;ServerUrl>http://tile.openstreetmap.org/${z}/${x}/${y}.png&lt;/ServerUrl>
+  &lt;/Service>
+  &lt;DataWindow>
+    &lt;UpperLeftX>-20037508.34&lt;/UpperLeftX>
+    &lt;UpperLeftY>20037508.34&lt;/UpperLeftY>
+    &lt;LowerRightX>20037508.34&lt;/LowerRightX>
+    &lt;LowerRightY>-20037508.34&lt;/LowerRightY>
+    &lt;TileLevel>19&lt;/TileLevel>
+    &lt;TileCountX>1&lt;/TileCountX>
+    &lt;TileCountY>1&lt;/TileCountY>
+    &lt;YOrigin>top&lt;/YOrigin>
+  &lt;/DataWindow>
+  &lt;Projection>EPSG:3857&lt;/Projection>
+  &lt;BlockSizeX>256&lt;/BlockSizeX>
+  &lt;BlockSizeY>256&lt;/BlockSizeY>
+  &lt;BandsCount>3&lt;/BandsCount>
+  &lt;Cache />
+&lt;/GDAL_WMS>
+</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>Daum Street</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +wktext +no_defs</proj4>
+          <srsid>3857</srsid>
+          <srid>3857</srid>
+          <authid>EPSG:3857</authid>
+          <description>WGS 84 / Pseudo Mercator</description>
+          <projectionacronym>merc</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Value"/>
+        <property key="ol_layer_type" value="OpenStreetMap"/>
+      </customproperties>
+      <provider>gdal</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+        <noDataList bandNo="2" useSrcNoData="0"/>
+        <noDataList bandNo="3" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>182841</xmin>
+        <ymin>437685</ymin>
+        <xmax>215304</xmax>
+        <ymax>465304</ymax>
+      </extent>
+      <id>TBGIS_ALLEY_TRDAR_RELM20180822164111841</id>
+      <datasource>../../Downloads/24.골목상권영역(2017년이후)/TBGIS_ALLEY_TRDAR_RELM.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TBGIS_ALLEY_TRDAR_RELM</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127 +k=1 +x_0=200000 +y_0=500000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>28045</srsid>
+          <srid>5181</srid>
+          <authid>EPSG:5181</authid>
+          <description>Korea 2000 / Central Belt</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins>
+        <join joinFieldName="인덱스" targetFieldName="ALLEY_TR_1" memoryCache="1" joinLayerId="6DD20180822162139295">
+          <joinFieldsSubset>
+            <field name="분식집매출건수"/>
+            <field name="양식집매출건수"/>
+            <field name="일식집매출건수"/>
+            <field name="제과점매출건수"/>
+            <field name="중국집매출건수"/>
+            <field name="치킨집매출건수"/>
+            <field name="커피음료매출건수"/>
+            <field name="패스트푸드점매출건수"/>
+            <field name="한식음식점매출건수"/>
+            <field name="호프간이주점매출건수"/>
+          </joinFieldsSubset>
+        </join>
+      </vectorjoins>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="OBJECTID">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ALLEY_TRDA">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ALLEY_TR_1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="XCNTS_VALU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="YDNTS_VALU">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="SIGNGU_CD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ADSTRD_CD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Leng">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="Shape_Area">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="STDR_YM_CD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_분식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_양식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_일식집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_제과점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_중국집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_치킨집매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_커피음료매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_패스트푸드점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_한식음식점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="6DD_호프간이주점매출건수">
+          <widgetv2config IsMultiline="0" fieldEditable="0" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{37021617-a2a0-4ed8-a728-26e1b30103bb}">
+          <rule checkstate="0" filter=" &quot;6DD_한식음식점매출건수&quot;   =2" key="{df3eb493-efcf-4c9f-bb0b-d93756dc0226}" symbol="0"/>
+          <rule checkstate="0" filter=" &quot;6DD_한식음식점매출건수&quot;   =1" key="{df3eb493-efcf-4c9f-bb0b-d93756dc0226}" symbol="1"/>
+          <rule checkstate="0" filter=" &quot;6DD_한식음식점매출건수&quot;   =-1" key="{691b3fb0-370b-4a63-b79e-a1318089b5df}" symbol="2"/>
+          <rule checkstate="0" filter=" &quot;6DD_한식음식점매출건수&quot;   =-2" key="{db37682a-1728-4bba-a636-8e4a17703082}" symbol="3"/>
+          <rule filter=" &quot;6DD_커피음료매출건수&quot; =2" key="{ea0bb425-5bef-4f40-9b1d-550c9130aa91}" symbol="4"/>
+          <rule filter=" &quot;6DD_커피음료매출건수&quot; =1" key="{3df00fe9-f75b-4694-abca-249bd773279b}" symbol="5"/>
+          <rule filter=" &quot;6DD_커피음료매출건수&quot; =-1" key="{8dfd5b04-6b4d-431d-96df-fcb895828e61}" symbol="6"/>
+          <rule filter=" &quot;6DD_커피음료매출건수&quot; = -2" key="{bb2d3675-d076-442d-8478-9b1a49d3c394}" symbol="7"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,29,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="22,255,1,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="2">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,233,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="3">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,35,1,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="4">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,29,255,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="5">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="22,255,1,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="6">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,233,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="7">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="123,12,214,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="255,35,1,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="2"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="0"/>
+        <property key="labeling/bufferColorG" value="0"/>
+        <property key="labeling/bufferColorR" value="0"/>
+        <property key="labeling/bufferDraw" value="true"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="2"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="ALLEY_TR_1"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="나눔고딕 ExtraBold"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="20"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="75"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value="Bold"/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="244"/>
+        <property key="labeling/textColorG" value="244"/>
+        <property key="labeling/textColorR" value="244"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/6DD_분식집매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_양식집매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_일식집매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_제과점매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_중국집매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_치킨집매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_커피음료매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_패스트푸드점매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_한식음식점매출건수" value="no label"/>
+        <property key="qgis2web/popup/6DD_호프간이주점매출건수" value="no label"/>
+        <property key="qgis2web/popup/ADSTRD_CD" value="no label"/>
+        <property key="qgis2web/popup/ALLEY_TRDA" value="no label"/>
+        <property key="qgis2web/popup/ALLEY_TR_1" value="no label"/>
+        <property key="qgis2web/popup/OBJECTID" value="no label"/>
+        <property key="qgis2web/popup/SIGNGU_CD" value="no label"/>
+        <property key="qgis2web/popup/STDR_YM_CD" value="no label"/>
+        <property key="qgis2web/popup/Shape_Area" value="no label"/>
+        <property key="qgis2web/popup/Shape_Leng" value="no label"/>
+        <property key="qgis2web/popup/XCNTS_VALU" value="no label"/>
+        <property key="qgis2web/popup/YDNTS_VALU" value="no label"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>OBJECTID</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name="Gulim"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../작업파일들</annotationform>
+      <aliases>
+        <alias field="OBJECTID" index="0" name=""/>
+        <alias field="ALLEY_TRDA" index="1" name=""/>
+        <alias field="ALLEY_TR_1" index="2" name=""/>
+        <alias field="XCNTS_VALU" index="3" name=""/>
+        <alias field="YDNTS_VALU" index="4" name=""/>
+        <alias field="SIGNGU_CD" index="5" name=""/>
+        <alias field="ADSTRD_CD" index="6" name=""/>
+        <alias field="Shape_Leng" index="7" name=""/>
+        <alias field="Shape_Area" index="8" name=""/>
+        <alias field="STDR_YM_CD" index="9" name=""/>
+        <alias field="6DD_분식집매출건수" index="10" name=""/>
+        <alias field="6DD_양식집매출건수" index="11" name=""/>
+        <alias field="6DD_일식집매출건수" index="12" name=""/>
+        <alias field="6DD_제과점매출건수" index="13" name=""/>
+        <alias field="6DD_중국집매출건수" index="14" name=""/>
+        <alias field="6DD_치킨집매출건수" index="15" name=""/>
+        <alias field="6DD_커피음료매출건수" index="16" name=""/>
+        <alias field="6DD_패스트푸드점매출건수" index="17" name=""/>
+        <alias field="6DD_한식음식점매출건수" index="18" name=""/>
+        <alias field="6DD_호프간이주점매출건수" index="19" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="OBJECTID"/>
+          <column width="-1" hidden="0" type="field" name="ALLEY_TRDA"/>
+          <column width="-1" hidden="0" type="field" name="ALLEY_TR_1"/>
+          <column width="-1" hidden="0" type="field" name="XCNTS_VALU"/>
+          <column width="-1" hidden="0" type="field" name="YDNTS_VALU"/>
+          <column width="-1" hidden="0" type="field" name="SIGNGU_CD"/>
+          <column width="-1" hidden="0" type="field" name="ADSTRD_CD"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Leng"/>
+          <column width="-1" hidden="0" type="field" name="Shape_Area"/>
+          <column width="-1" hidden="0" type="field" name="STDR_YM_CD"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="6DD_분식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_양식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_일식집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_제과점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_중국집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_치킨집매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_커피음료매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_패스트푸드점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_한식음식점매출건수"/>
+          <column width="-1" hidden="0" type="field" name="6DD_호프간이주점매출건수"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../작업파일들</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../작업파일들</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="OBJECTID" expression=""/>
+        <default field="ALLEY_TRDA" expression=""/>
+        <default field="ALLEY_TR_1" expression=""/>
+        <default field="XCNTS_VALU" expression=""/>
+        <default field="YDNTS_VALU" expression=""/>
+        <default field="SIGNGU_CD" expression=""/>
+        <default field="ADSTRD_CD" expression=""/>
+        <default field="Shape_Leng" expression=""/>
+        <default field="Shape_Area" expression=""/>
+        <default field="STDR_YM_CD" expression=""/>
+        <default field="6DD_분식집매출건수" expression=""/>
+        <default field="6DD_양식집매출건수" expression=""/>
+        <default field="6DD_일식집매출건수" expression=""/>
+        <default field="6DD_제과점매출건수" expression=""/>
+        <default field="6DD_중국집매출건수" expression=""/>
+        <default field="6DD_치킨집매출건수" expression=""/>
+        <default field="6DD_커피음료매출건수" expression=""/>
+        <default field="6DD_패스트푸드점매출건수" expression=""/>
+        <default field="6DD_한식음식점매출건수" expression=""/>
+        <default field="6DD_호프간이주점매출건수" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "OBJECTID", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>746110.25721421418711543</xmin>
+        <ymin>1458754.04415632737800479</ymin>
+        <xmax>1387949.5894536292180419</xmax>
+        <ymax>2068443.95462901517748833</ymax>
+      </extent>
+      <id>TL_SCCO_CTPRVN20180822175228974</id>
+      <datasource>../../Downloads/CTPRVN_201804/TL_SCCO_CTPRVN.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TL_SCCO_CTPRVN</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * 만들어진 좌표계 (+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="CTPRVN_CD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CTP_ENG_NM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="CTP_KOR_NM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="singleSymbol" enableorderby="0">
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="165,19,73,0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="1"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="diameter"/>
+      </renderer-v2>
+      <labeling type="simple"/>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling" value="pal"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="false"/>
+        <property key="labeling/enabled" value="false"/>
+        <property key="labeling/fieldName" value=""/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Gulim"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="true"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/CTPRVN_CD" value="no label"/>
+        <property key="qgis2web/popup/CTP_ENG_NM" value="no label"/>
+        <property key="qgis2web/popup/CTP_KOR_NM" value="no label"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>CTPRVN_CD</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name="Gulim"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../작업파일들</annotationform>
+      <aliases>
+        <alias field="CTPRVN_CD" index="0" name=""/>
+        <alias field="CTP_ENG_NM" index="1" name=""/>
+        <alias field="CTP_KOR_NM" index="2" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="CTPRVN_CD"/>
+          <column width="-1" hidden="0" type="field" name="CTP_ENG_NM"/>
+          <column width="-1" hidden="0" type="field" name="CTP_KOR_NM"/>
+          <column width="-1" hidden="1" type="actions"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../작업파일들</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../작업파일들</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="CTPRVN_CD" expression=""/>
+        <default field="CTP_ENG_NM" expression=""/>
+        <default field="CTP_KOR_NM" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+    <maplayer simplifyAlgorithm="0" minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" readOnly="0" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <extent>
+        <xmin>935035.25474567385390401</xmin>
+        <ymin>1936665.5480706412345171</ymin>
+        <xmax>972067.56986276502721012</xmax>
+        <ymax>1966987.15807928959839046</ymax>
+      </extent>
+      <id>TL_SCCO_EMD20180824135438255</id>
+      <datasource>../../Downloads/2/EMD_201804/TL_SCCO_EMD.shp</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>TL_SCCO_EMD</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs</proj4>
+          <srsid>100000</srsid>
+          <srid>0</srid>
+          <authid>USER:100000</authid>
+          <description> * 만들어진 좌표계 (+proj=tmerc +lat_0=38 +lon_0=127.5 +k=0.9996 +x_0=1000000 +y_0=2000000 +ellps=GRS80 +units=m +no_defs)</description>
+          <projectionacronym>tmerc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="System">ogr</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="EMD_CD">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EMD_ENG_NM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="EMD_KOR_NM">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 forceraster="0" symbollevels="0" type="RuleRenderer" enableorderby="0">
+        <rules key="{a8b2014e-6815-4a0c-9552-2ab5bc7d06f3}">
+          <rule checkstate="0" filter=" &quot;map_final6_돌배기집&quot;  >=1" key="{60141fd0-0ce4-48d1-af44-e640677ae9b0}" symbol="0"/>
+          <rule filter=" &quot;map_final6_청년다방&quot; >=1" key="{b4625c1d-db38-43af-adfd-593d993f7f09}" symbol="1"/>
+        </rules>
+        <symbols>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="dense3"/>
+            </layer>
+          </symbol>
+          <symbol alpha="1" clip_to_extent="1" type="fill" name="1">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="color" v="0,0,0,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="dense3"/>
+            </layer>
+          </symbol>
+        </symbols>
+      </renderer-v2>
+      <labeling type="rule-based">
+        <rules key="{912a19bb-d054-4182-b52e-1b9479d112a1}"/>
+      </labeling>
+      <customproperties>
+        <property key="embeddedWidgets/count" value="0"/>
+        <property key="labeling/addDirectionSymbol" value="false"/>
+        <property key="labeling/angleOffset" value="0"/>
+        <property key="labeling/blendMode" value="0"/>
+        <property key="labeling/bufferBlendMode" value="0"/>
+        <property key="labeling/bufferColorA" value="255"/>
+        <property key="labeling/bufferColorB" value="255"/>
+        <property key="labeling/bufferColorG" value="255"/>
+        <property key="labeling/bufferColorR" value="255"/>
+        <property key="labeling/bufferDraw" value="false"/>
+        <property key="labeling/bufferJoinStyle" value="128"/>
+        <property key="labeling/bufferNoFill" value="false"/>
+        <property key="labeling/bufferSize" value="1"/>
+        <property key="labeling/bufferSizeInMapUnits" value="false"/>
+        <property key="labeling/bufferSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/bufferTransp" value="0"/>
+        <property key="labeling/centroidInside" value="false"/>
+        <property key="labeling/centroidWhole" value="false"/>
+        <property key="labeling/decimals" value="3"/>
+        <property key="labeling/displayAll" value="false"/>
+        <property key="labeling/dist" value="0"/>
+        <property key="labeling/distInMapUnits" value="false"/>
+        <property key="labeling/distMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/drawLabels" value="true"/>
+        <property key="labeling/enabled" value="true"/>
+        <property key="labeling/fieldName" value="EMD_KOR_NM"/>
+        <property key="labeling/fitInPolygonOnly" value="false"/>
+        <property key="labeling/fontCapitals" value="0"/>
+        <property key="labeling/fontFamily" value="Gulim"/>
+        <property key="labeling/fontItalic" value="false"/>
+        <property key="labeling/fontLetterSpacing" value="0"/>
+        <property key="labeling/fontLimitPixelSize" value="false"/>
+        <property key="labeling/fontMaxPixelSize" value="10000"/>
+        <property key="labeling/fontMinPixelSize" value="3"/>
+        <property key="labeling/fontSize" value="9"/>
+        <property key="labeling/fontSizeInMapUnits" value="false"/>
+        <property key="labeling/fontSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/fontStrikeout" value="false"/>
+        <property key="labeling/fontUnderline" value="false"/>
+        <property key="labeling/fontWeight" value="50"/>
+        <property key="labeling/fontWordSpacing" value="0"/>
+        <property key="labeling/formatNumbers" value="false"/>
+        <property key="labeling/isExpression" value="false"/>
+        <property key="labeling/labelOffsetInMapUnits" value="true"/>
+        <property key="labeling/labelOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/labelPerPart" value="false"/>
+        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
+        <property key="labeling/limitNumLabels" value="false"/>
+        <property key="labeling/maxCurvedCharAngleIn" value="25"/>
+        <property key="labeling/maxCurvedCharAngleOut" value="-25"/>
+        <property key="labeling/maxNumLabels" value="2000"/>
+        <property key="labeling/mergeLines" value="false"/>
+        <property key="labeling/minFeatureSize" value="0"/>
+        <property key="labeling/multilineAlign" value="4294967295"/>
+        <property key="labeling/multilineHeight" value="1"/>
+        <property key="labeling/namedStyle" value=""/>
+        <property key="labeling/obstacle" value="true"/>
+        <property key="labeling/obstacleFactor" value="1"/>
+        <property key="labeling/obstacleType" value="0"/>
+        <property key="labeling/offsetType" value="0"/>
+        <property key="labeling/placeDirectionSymbol" value="0"/>
+        <property key="labeling/placement" value="1"/>
+        <property key="labeling/placementFlags" value="10"/>
+        <property key="labeling/plussign" value="false"/>
+        <property key="labeling/predefinedPositionOrder" value="TR,TL,BR,BL,R,L,TSR,BSR"/>
+        <property key="labeling/preserveRotation" value="true"/>
+        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
+        <property key="labeling/priority" value="5"/>
+        <property key="labeling/quadOffset" value="4"/>
+        <property key="labeling/repeatDistance" value="0"/>
+        <property key="labeling/repeatDistanceMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/repeatDistanceUnit" value="1"/>
+        <property key="labeling/reverseDirectionSymbol" value="false"/>
+        <property key="labeling/rightDirectionSymbol" value=">"/>
+        <property key="labeling/scaleMax" value="10000000"/>
+        <property key="labeling/scaleMin" value="1"/>
+        <property key="labeling/scaleVisibility" value="false"/>
+        <property key="labeling/shadowBlendMode" value="6"/>
+        <property key="labeling/shadowColorB" value="0"/>
+        <property key="labeling/shadowColorG" value="0"/>
+        <property key="labeling/shadowColorR" value="0"/>
+        <property key="labeling/shadowDraw" value="false"/>
+        <property key="labeling/shadowOffsetAngle" value="135"/>
+        <property key="labeling/shadowOffsetDist" value="1"/>
+        <property key="labeling/shadowOffsetGlobal" value="true"/>
+        <property key="labeling/shadowOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowOffsetUnits" value="1"/>
+        <property key="labeling/shadowRadius" value="1.5"/>
+        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
+        <property key="labeling/shadowRadiusMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shadowRadiusUnits" value="1"/>
+        <property key="labeling/shadowScale" value="100"/>
+        <property key="labeling/shadowTransparency" value="30"/>
+        <property key="labeling/shadowUnder" value="0"/>
+        <property key="labeling/shapeBlendMode" value="0"/>
+        <property key="labeling/shapeBorderColorA" value="255"/>
+        <property key="labeling/shapeBorderColorB" value="128"/>
+        <property key="labeling/shapeBorderColorG" value="128"/>
+        <property key="labeling/shapeBorderColorR" value="128"/>
+        <property key="labeling/shapeBorderWidth" value="0"/>
+        <property key="labeling/shapeBorderWidthMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeBorderWidthUnits" value="1"/>
+        <property key="labeling/shapeDraw" value="false"/>
+        <property key="labeling/shapeFillColorA" value="255"/>
+        <property key="labeling/shapeFillColorB" value="255"/>
+        <property key="labeling/shapeFillColorG" value="255"/>
+        <property key="labeling/shapeFillColorR" value="255"/>
+        <property key="labeling/shapeJoinStyle" value="64"/>
+        <property key="labeling/shapeOffsetMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeOffsetUnits" value="1"/>
+        <property key="labeling/shapeOffsetX" value="0"/>
+        <property key="labeling/shapeOffsetY" value="0"/>
+        <property key="labeling/shapeRadiiMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeRadiiUnits" value="1"/>
+        <property key="labeling/shapeRadiiX" value="0"/>
+        <property key="labeling/shapeRadiiY" value="0"/>
+        <property key="labeling/shapeRotation" value="0"/>
+        <property key="labeling/shapeRotationType" value="0"/>
+        <property key="labeling/shapeSVGFile" value=""/>
+        <property key="labeling/shapeSizeMapUnitScale" value="0,0,0,0,0,0"/>
+        <property key="labeling/shapeSizeType" value="0"/>
+        <property key="labeling/shapeSizeUnits" value="1"/>
+        <property key="labeling/shapeSizeX" value="0"/>
+        <property key="labeling/shapeSizeY" value="0"/>
+        <property key="labeling/shapeTransparency" value="0"/>
+        <property key="labeling/shapeType" value="0"/>
+        <property key="labeling/substitutions" value="&lt;substitutions/>"/>
+        <property key="labeling/textColorA" value="255"/>
+        <property key="labeling/textColorB" value="0"/>
+        <property key="labeling/textColorG" value="0"/>
+        <property key="labeling/textColorR" value="0"/>
+        <property key="labeling/textTransp" value="0"/>
+        <property key="labeling/upsidedownLabels" value="0"/>
+        <property key="labeling/useSubstitutions" value="false"/>
+        <property key="labeling/wrapChar" value=""/>
+        <property key="labeling/xOffset" value="0"/>
+        <property key="labeling/yOffset" value="0"/>
+        <property key="labeling/zIndex" value="0"/>
+        <property key="qgis2web/Visible" value="true"/>
+        <property key="qgis2web/popup/EMD_CD" value="no label"/>
+        <property key="qgis2web/popup/EMD_ENG_NM" value="no label"/>
+        <property key="qgis2web/popup/EMD_KOR_NM" value="no label"/>
+        <property key="qgis2web/popup/map_final5_가마로강정" value="no label"/>
+        <property key="qgis2web/popup/map_final5_강정이기가막혀" value="no label"/>
+        <property key="variableNames"/>
+        <property key="variableValues"/>
+      </customproperties>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>EMD_CD</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="라벨"/>
+        <family fieldname="" name="Gulim"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <SingleCategoryDiagramRenderer diagramType="Histogram" sizeLegend="0" attributeLegend="1">
+        <DiagramCategory penColor="#000000" labelPlacementMethod="XHeight" penWidth="0" diagramOrientation="Up" sizeScale="0,0,0,0,0,0" minimumSize="0" barWidth="5" penAlpha="255" maxScaleDenominator="1e+08" backgroundColor="#ffffff" transparency="0" width="15" scaleDependency="Area" backgroundAlpha="255" angleOffset="1440" scaleBasedVisibility="0" enabled="0" height="15" lineSizeScale="0,0,0,0,0,0" sizeType="MM" lineSizeType="MM" minScaleDenominator="inf">
+          <fontProperties description="Gulim,9,-1,5,50,0,0,0,0,0" style=""/>
+          <attribute field="" color="#000000" label=""/>
+        </DiagramCategory>
+        <symbol alpha="1" clip_to_extent="1" type="marker" name="sizeSymbol">
+          <layer pass="0" class="SimpleMarker" locked="0">
+            <prop k="angle" v="0"/>
+            <prop k="color" v="255,0,0,255"/>
+            <prop k="horizontal_anchor_point" v="1"/>
+            <prop k="joinstyle" v="bevel"/>
+            <prop k="name" v="circle"/>
+            <prop k="offset" v="0,0"/>
+            <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="offset_unit" v="MM"/>
+            <prop k="outline_color" v="0,0,0,255"/>
+            <prop k="outline_style" v="solid"/>
+            <prop k="outline_width" v="0"/>
+            <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="outline_width_unit" v="MM"/>
+            <prop k="scale_method" v="diameter"/>
+            <prop k="size" v="2"/>
+            <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+            <prop k="size_unit" v="MM"/>
+            <prop k="vertical_anchor_point" v="1"/>
+          </layer>
+        </symbol>
+      </SingleCategoryDiagramRenderer>
+      <DiagramLayerSettings yPosColumn="-1" showColumn="-1" linePlacementFlags="10" placement="0" dist="0" xPosColumn="-1" priority="0" obstacle="0" zIndex="0" showAll="1"/>
+      <annotationform>../작업파일들</annotationform>
+      <aliases>
+        <alias field="EMD_CD" index="0" name=""/>
+        <alias field="EMD_ENG_NM" index="1" name=""/>
+        <alias field="EMD_KOR_NM" index="2" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns>
+          <column width="-1" hidden="0" type="field" name="EMD_CD"/>
+          <column width="-1" hidden="0" type="field" name="EMD_ENG_NM"/>
+          <column width="-1" hidden="0" type="field" name="EMD_KOR_NM"/>
+          <column width="-1" hidden="1" type="actions"/>
+          <column width="-1" hidden="0" type="field" name="map_final6_청년다방"/>
+          <column width="-1" hidden="0" type="field" name="map_final6_돌배기집"/>
+        </columns>
+      </attributetableconfig>
+      <editform>../작업파일들</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../작업파일들</editforminitfilepath>
+      <editforminitcode><![CDATA[# -*- coding: utf-8 -*-
+"""
+QGIS forms can have a Python function that is called when the form is
+opened.
+
+Use this function to add extra logic to your forms.
+
+Enter the name of the function in the "Python Init function"
+field.
+An example follows:
+"""
+from qgis.PyQt.QtWidgets import QWidget
+
+def my_form_open(dialog, layer, feature):
+	geom = feature.geometry()
+	control = dialog.findChild(QWidget, "MyLineEdit")
+]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets>
+        <widget name="map_final5_가마로강정">
+          <config>
+            <option key="IsMultiline" value="false"/>
+            <option key="UseHtml" value="false"/>
+          </config>
+        </widget>
+        <widget name="map_final5_강정이기가막혀">
+          <config>
+            <option key="IsMultiline" value="false"/>
+            <option key="UseHtml" value="false"/>
+          </config>
+        </widget>
+        <widget name="map_final6_돌배기집">
+          <config>
+            <option key="IsMultiline" value="false"/>
+            <option key="UseHtml" value="false"/>
+          </config>
+        </widget>
+        <widget name="map_final6_버거킹 BurgerKing">
+          <config/>
+        </widget>
+        <widget name="map_final6_청년다방">
+          <config>
+            <option key="IsMultiline" value="false"/>
+            <option key="UseHtml" value="false"/>
+          </config>
+        </widget>
+      </widgets>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="EMD_CD" expression=""/>
+        <default field="EMD_ENG_NM" expression=""/>
+        <default field="EMD_KOR_NM" expression=""/>
+      </defaults>
+      <previewExpression>COALESCE( "EMD_CD", '&lt;NULL>' )</previewExpression>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" readOnly="0" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>map_final620180824201911618</id>
+      <datasource>file:../../data/data/map_final6.csv?encoding=EUC-KR&amp;type=csv&amp;xyDms=yes&amp;geomType=none&amp;subsetIndex=no&amp;watchFile=no</datasource>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>map_final6</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">delimitedtext</provider>
+      <vectorjoins/>
+      <layerDependencies/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="field_1">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="청년다방">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="돌배기집">
+          <widgetv2config IsMultiline="0" fieldEditable="1" constraint="" UseHtml="0" labelOnTop="0" constraintDescription="" notNull="0"/>
+        </edittype>
+      </edittypes>
+      <annotationform>../작업파일들</annotationform>
+      <aliases>
+        <alias field="field_1" index="0" name=""/>
+        <alias field="청년다방" index="1" name=""/>
+        <alias field="돌배기집" index="2" name=""/>
+      </aliases>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions default="-1"/>
+      <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+        <columns/>
+      </attributetableconfig>
+      <editform>../작업파일들</editform>
+      <editforminit/>
+      <editforminitcodesource>0</editforminitcodesource>
+      <editforminitfilepath>../작업파일들</editforminitfilepath>
+      <editforminitcode><![CDATA[]]></editforminitcode>
+      <featformsuppress>0</featformsuppress>
+      <editorlayout>generatedlayout</editorlayout>
+      <widgets/>
+      <conditionalstyles>
+        <rowstyles/>
+        <fieldstyles/>
+      </conditionalstyles>
+      <defaults>
+        <default field="field_1" expression=""/>
+        <default field="청년다방" expression=""/>
+        <default field="돌배기집" expression=""/>
+      </defaults>
+      <previewExpression></previewExpression>
+    </maplayer>
+  </projectlayers>
+  <properties>
+    <Measurement>
+      <DistanceUnits type="QString"></DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
+    <SpatialRefSys>
+      <ProjectCRSProj4String type="QString">+proj=longlat +datum=WGS84 +no_defs</ProjectCRSProj4String>
+      <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+      <ProjectCRSID type="int">3452</ProjectCRSID>
+      <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+    </SpatialRefSys>
+    <ScaleBar>
+      <ColorBluePart type="int">0</ColorBluePart>
+      <MarginV type="int">0</MarginV>
+      <MarginH type="int">0</MarginH>
+      <ColorGreenPart type="int">0</ColorGreenPart>
+      <Enabled type="bool">true</Enabled>
+      <ColorRedPart type="int">0</ColorRedPart>
+      <Placement type="int">1</Placement>
+      <Snapping type="bool">true</Snapping>
+      <Style type="int">0</Style>
+      <MarginUnit type="QString">MM</MarginUnit>
+      <PreferredSize type="int">30</PreferredSize>
+    </ScaleBar>
+    <Paths>
+      <Absolute type="bool">false</Absolute>
+    </Paths>
+    <Gui>
+      <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+      <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+      <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+      <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+      <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+      <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+      <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+    </Gui>
+    <Digitizing>
+      <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
+      <LayerSnappingList type="QStringList">
+        <value>6DD20180822162139295</value>
+        <value>TBGIS_ALLEY_TRDAR_RELM20180822164111841</value>
+        <value>TL_SCCO_CTPRVN20180822175228974</value>
+        <value>TL_SCCO_EMD20180824135438255</value>
+      </LayerSnappingList>
+      <LayerSnappingEnabledList type="QStringList">
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+      </LayerSnappingEnabledList>
+      <SnappingMode type="QString">current_layer</SnappingMode>
+      <AvoidIntersectionsList type="QStringList"/>
+      <LayerSnappingToleranceUnitList type="QStringList">
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+        <value>2</value>
+      </LayerSnappingToleranceUnitList>
+      <LayerSnapToList type="QStringList">
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+      </LayerSnapToList>
+      <DefaultSnapType type="QString">off</DefaultSnapType>
+      <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
+      <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+        <value>0.000000</value>
+      </LayerSnappingToleranceList>
+    </Digitizing>
+    <qgis2web>
+      <Maxzoomlevel type="QString">28</Maxzoomlevel>
+      <Showpopupsonhover type="bool">false</Showpopupsonhover>
+      <Basemaps type="QString"></Basemaps>
+      <Exportfolder type="QString">C:\Users\301-8\AppData\Local\Temp\qgis2web</Exportfolder>
+      <mapFormat type="QString">openlayers</mapFormat>
+      <Precision type="QString">maintain</Precision>
+      <Measuretool type="QString">None</Measuretool>
+      <Usedebuglibraries type="bool">false</Usedebuglibraries>
+      <Baselayer type="QStringList"/>
+      <Addlayerslist type="QString">None</Addlayerslist>
+      <Highlightonhover type="bool">false</Highlightonhover>
+      <MatchprojectCRS type="bool">false</MatchprojectCRS>
+      <Addaddresssearch type="bool">false</Addaddresssearch>
+      <Minzoomlevel type="QString">1</Minzoomlevel>
+      <Geolocateuser type="bool">false</Geolocateuser>
+      <Exporter type="QString">folder</Exporter>
+      <MinifyGeoJSONfiles type="bool">false</MinifyGeoJSONfiles>
+      <Extent type="QString">Canvas extent</Extent>
+      <Restricttoextent type="bool">false</Restricttoextent>
+      <Template type="QString">full-screen</Template>
+      <Mappinglibrarylocation type="QString">Local</Mappinglibrarylocation>
+      <Searchlayer type="QString"></Searchlayer>
+      <Layersearch type="QString">None</Layersearch>
+    </qgis2web>
+    <PositionPrecision>
+      <DecimalPlaces type="int">2</DecimalPlaces>
+      <Automatic type="bool">true</Automatic>
+    </PositionPrecision>
+    <Legend>
+      <filterByMap type="bool">false</filterByMap>
+    </Legend>
+    <WMSServiceTitle type="QString">QGIS</WMSServiceTitle>
+    <WMSExtent type="QStringList">
+      <value>178071.479237</value>
+      <value>433986.085187</value>
+      <value>234786.095526</value>
+      <value>466042.172654</value>
+    </WMSExtent>
+  </properties>
+  <visibility-presets/>
+</qgis>
